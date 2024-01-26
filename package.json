@@ -1,0 +1,36 @@
+{
+  "name": "full_stack_homework",
+  "version": "1.0.0",
+  "description": "[Fork the repo](https://github.com/Machina-Labs/full_stack_homework/fork) to get started. When you're ready to submit, email us a link to your repository. ### Problem Statement",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev nodemon server/server.js",
+    "start:prod": "NODE_ENV=prod node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabhan02/full_stack_homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabhan02/full_stack_homework/issues"
+  },
+  "homepage": "https://github.com/nabhan02/full_stack_homework#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.8.0",
+    "mysqlx": "^1.1.8",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

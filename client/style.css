@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    font-size: larger;
+}a
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    padding-left: 1%;
+    list-style-type: none;
+}
+
+.folder {
+    margin-left: 15px;
+    position: relative;
+    padding-left: 1%;
+}
+
+.folder:before {
+    content: '\25b6'; /* Unicode character for right-pointing triangle */
+    position: absolute;
+    left: -10px;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.folder.closed:before {
+    content: '\25bc'; /* Unicode character for down-pointing triangle */
+}
+
+.folder ul {
+    display: none;
+}
+
+.file {
+    margin-left: 15px;
+    color: #333;
+    padding-left: 1%;
+}
+
+.preview {
+    color: #ea6835;
+}
+
+file-content {
+    margin-left: 30px;
+    color: #666;
+}
+
+/* Add these styles to your CSS file */
+ul.hidden {
+    display: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: #e4e4e4;
+    color: #3498DB;
+    padding: 0%;
+    font-size: 15px;
+    border: non0e;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+button::after {
+    display: inline-block;
+    margin-left: 5px;
+}

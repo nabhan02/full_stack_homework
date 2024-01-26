@@ -35,8 +35,10 @@ Our users are our Machina teammates who are doing the R&D for customers. We stor
 - [Install](https://docs.docker.com/desktop/) and run Docker
 
 ### Running the Application
-You can start the application as follows. The first time it runs, it will run `init.sql` to create tables and populate them with some seed data.  
+I WAS NOT ABLE TO GET DOCKER WITH MYSQL TO WORK BECAUSE OF AUTHENTICATION ISSUES. I tried many methods to troubleshoot the authentication errors but I was not able to get to bottom of it. For that reason docker is not used. To run the application run the follwing.
 ```
-docker compose up
+npm install express cors path fs mysql2 mysql live-server
+node server/server.js
+cd client
+npx live-server
 ```
-
